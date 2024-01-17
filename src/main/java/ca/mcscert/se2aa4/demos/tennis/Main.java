@@ -14,6 +14,8 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("** Starting Tennis Counter Assistant");
         System.out.println("**** Reading Command-Line Arguments");
+        Match i = new Match();
+        System.out.println(i.name);
         Options options = new Options();
         options.addOption("p1", true, "Strength of Player 1 in [0,100]");
         options.addOption("p2", true, "Strength of Player 2 in [0,100]");
