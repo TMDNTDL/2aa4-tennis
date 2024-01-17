@@ -1,4 +1,3 @@
-class_demo1
 package ca.mcscert.se2aa4.demos.tennis;
 
 public class Match {
@@ -11,14 +10,3 @@ public class Match {
     }
 
 }
-
-package ca.mcscert.se2aa4.demos.tennis;
-
-public class Match {
-    String name = "Soft";
-    public Match(){
-
-    }
-
-}
-main
