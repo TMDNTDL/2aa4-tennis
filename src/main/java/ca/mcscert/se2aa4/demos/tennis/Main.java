@@ -23,7 +23,7 @@ public class Main {
             logger.info(config); // testing if we have the right args
             logger.info("Testing");
             Match theMatch = new Match(config.p1Strength(), config.p2Strength());
-            String winner = theMatch.play();
+            Player winner = theMatch.play();
             System.out.println("Winner is: " +winner);
         } catch(ParseException pe){
             logger.info(pe.getMessage());
